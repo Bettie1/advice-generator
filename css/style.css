@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 800;
+}
+
+.block {
+  position: relative;
+  width: 530px;
+  height: 340px;
+  background-color: var(--dark-grayish-blue);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: -12px;
+  font-size: 0.7rem;
+  color: var(--neon-green);
+  letter-spacing: 5px;
+}
+
+p {
+  text-align: center;
+  font-size: 28px;
+  color: var(--light-cyan);
+  margin: 30px 35px;
+}
+
+.divider {
+  text-align: center;
+}
+
+button {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 310px;
+  background-color: var(--neon-green);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
