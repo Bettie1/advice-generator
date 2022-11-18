@@ -2,8 +2,6 @@ const btn = document.getElementById("btn");
 const adviceP = document.getElementById("advice");
 const spanS = document.getElementById("span");
 
-getRandomAdvice();
-
 async function getRandomAdvice() {
   const res = await fetch("https://api.adviceslip.com/advice");
 
