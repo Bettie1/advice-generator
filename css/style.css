@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 :root {
   --light-cyan: hsl(193, 38%, 86%);
   --neon-green: hsl(150, 100%, 66%);
